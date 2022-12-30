@@ -11,5 +11,16 @@ class typeconversion {
         int number4 = (int)number3;
         System.out.println("Conversion from double to int by casting");
         System.out.println(number4);
+
+        // Literal String and Object String
+        String literalString1 = "abc";
+        String literalString2 = "abc";
+
+        // Literal String and Object String
+        String ObjectString1 = new String("abc");
+        String ObjectString2 = new String("abc");
+
+        System.out.println(literalString1 == literalString2);
+        System.out.println(ObjectString1 == ObjectString2);  
     }
 }
