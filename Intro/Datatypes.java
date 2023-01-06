@@ -15,7 +15,5 @@ public class Datatypes {
      2. Non-Primitive Data Type:String, Array
      Syntax: Datatype name;
     */
-    short aSingleByte = 100;
-
 }
 }

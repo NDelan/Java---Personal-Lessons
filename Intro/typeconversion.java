@@ -1,11 +1,12 @@
 class typeconversion {
     public static void main(String[] args){
-        // Conver int to double
+        // Convert int to double
         int number1 = 5;
         double number2 = number1;
 
         System.out.println(number2);
-
+        
+        // Narrowing Casting
         // Convert double to int by casting
         double number3 = 5.8;
         int number4 = (int)number3;
@@ -24,3 +25,4 @@ class typeconversion {
         System.out.println(ObjectString1 == ObjectString2);  
     }
 }
+
