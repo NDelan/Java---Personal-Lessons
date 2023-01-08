@@ -12,5 +12,33 @@ public class condition {
 
         String result = (temp < 100) ? "Not Boiling" : "Oops! Boiling.";
         System.out.println(result);
+
+        // Using Switch Case
+        /*Syntax: 
+         swith (expression) {
+            case x:
+                //code block
+                break;
+            case y:
+                //code block
+                break;
+            default:
+                //code block
+         }
+         */
+
+        //  int day = 2;
+        int day = 3;
+         switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            // Executes when there is no match. Needs no break.
+            default:
+                System.out.println("No match"); 
+         }
     }
 }
