@@ -40,5 +40,34 @@ public class condition {
             default:
                 System.out.println("No match"); 
          }
+
+        //  Loops 
+        /*
+         while (condition){
+            // Block to be executed
+         }
+         */
+        int i = 0;
+        while (i < 5){
+            System.out.println(i);
+            i++;
+        }
+        // Do...While
+
+        do {
+            System.out.println(i);
+            i++;
+        } while (i < 10);
+
+        // Using for loop
+        for (int j = 0; j<=10; j += 2) {
+            System.out.println(j);
+        }
+
+        // For each loop
+        String[] persons = {"Del", "Lau", "Van"};
+        for (String person : persons){
+            System.out.println(person);
+        }
     }
 }
