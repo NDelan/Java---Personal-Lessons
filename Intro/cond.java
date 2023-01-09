@@ -89,5 +89,29 @@ public class cond {
             a++;
         }
 
+        // Arrays
+        String[] cars = {"Volvo", "Fef", "Del"};
+        // Change first element
+        cars[0] = "Laud";
+        System.out.println(cars[0]);
+        System.out.println(cars.length);
+
+        // Loop through array
+        for (int b = 0; b < cars.length; b++) {
+            System.out.println(cars[b]);
+        }
+
+        System.out.println("Alternative to looping through array");
+        for (String car: cars) {
+            System.out.println(car);
+        }
+
+        // Multidimensional Array
+        int[][] multiArray = {{1,2,3,4}, {5,6,7,8}};
+        for (int ele = 0; ele < multiArray.length; ele++){
+            for (int j = 0; j < multiArray[ele].length; j++){
+                System.out.println(multiArray[ele][j]);
+            }
+        }
     }
 }
