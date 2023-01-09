@@ -1,4 +1,4 @@
-public class condition {
+public class cond {
     public static void main(String[] args){
         // Short Hand If...Else Statement(Ternary Operator)
         int temp = 102;
@@ -78,6 +78,16 @@ public class condition {
             System.out.println(k);
         }
 
+        // Using break and continue in while loop
+        int a = 0;
+        while (a < 10) {
+            if (a == 4) {
+                a++;
+                continue;
+            }
+            System.out.println(a);
+            a++;
+        }
 
     }
 }
