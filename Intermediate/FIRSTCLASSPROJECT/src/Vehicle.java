@@ -35,5 +35,10 @@ class MyClass {
         System.out.println(v2.wheels);
 
         System.out.println(v3.maxSpeed);
+
+        // Using Packages
+        // Toolbox toolbox = new Toolbox();
     }
 }
+
+
