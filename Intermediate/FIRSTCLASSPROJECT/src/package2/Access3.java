@@ -9,7 +9,7 @@ public class Access3 extends Access1 {
 
         Access3 b = new Access3();
         System.out.println(b.century);
-
+        System.out.println(b.year);
     }
     
 }
