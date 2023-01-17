@@ -25,3 +25,4 @@ class Student extends Main {
         System.out.println("Let's go");
     }
 }
+
