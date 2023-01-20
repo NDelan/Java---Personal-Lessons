@@ -8,6 +8,7 @@ public class Access3 extends Access1 {
     public static void main(String[] args){
 
         Access3 b = new Access3();
+        // Access1 a = new Access1();
         System.out.println(b.century);
         System.out.println(b.year);
     }
