@@ -10,4 +10,4 @@ public class CurrentTime {
         System.out.println(timeFormat.format(currentDate));
     }
 }
-// d
+
