@@ -9,5 +9,12 @@ public class HashMapFun {
 
         System.out.println(hashObj);
         System.out.println(hashObj.get("c"));
+        System.out.println(hashObj.containsKey("b"));
+        System.out.println(hashObj.replace("c",43));
+        System.out.println(hashObj);
+
+        for (String i: hashObj.keySet()) {
+            System.out.println("The value of " + i + " is: " + hashObj.get(i));
+        }
     }
 }
