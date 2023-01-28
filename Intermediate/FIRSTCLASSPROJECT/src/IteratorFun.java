@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class IteratorFun {
     public static void main(String args[]) {
@@ -7,5 +8,9 @@ public class IteratorFun {
         names.add("Lau");
         names.add("Vhim");
 
+        // Get Iterator
+        Iterator<String> it = names.iterator();
+
+        System.out.println(it.next());
     }
 }
