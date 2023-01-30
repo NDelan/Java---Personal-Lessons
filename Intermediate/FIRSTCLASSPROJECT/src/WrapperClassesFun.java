@@ -11,5 +11,10 @@ public class WrapperClassesFun {
         Double myDouble = 5.4;
         System.out.println(myInt.intValue());
         System.out.println(myDouble.doubleValue());
+
+        // Convert Wrapper Classes
+
+        String myString = myInt.toString();
+        System.out.println(myString.length());
     }
 }
