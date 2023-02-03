@@ -6,7 +6,7 @@ public class ExceptionHandling {
         } catch (Exception e) {
             System.out.println("An error occured");
         } finally {
-            System.out.println("Finally executes code regardless of result");
+            System.out.println("Finally executes code regardless of result");}
         }
 
         static void main(int age) {
